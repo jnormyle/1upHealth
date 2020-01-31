@@ -8,7 +8,6 @@
     <script type="text/javascript" src="scripty.js"></script>
     <!-- getting require to work -->
     <script src="require.js"></script>
-    
 </head>
 <body>
     <h1> 1 up Health web app </h1>
@@ -18,12 +17,18 @@
     <input type="text" id="userInput2"> Enter you Patient ID
     <button id = "myBtn" onclick = "getAccessToken()">Submit</button>
     
+    <input type="radio" id="everything"
+     name="queryType" value="everything">
+    <label for="everything">$everything</label>
+
+    <input type="radio" id="original"
+     name="queryType" value="original">
+    <label for="riginal">original</label>
+    
     <p id ="at"></p>
     <p id ="pid"></p>
     
       
     </div>
-    
-   
 </body>
 </html>
